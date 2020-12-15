@@ -1,0 +1,27 @@
+.heading {
+  display: block;
+  text-align: center;
+}
+#txt-input {
+  width: 90%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#btn-translate {
+  background-color: aqua;
+  display: block;
+  margin-left: 12rem;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+}
