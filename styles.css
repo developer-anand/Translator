@@ -1,27 +1,56 @@
-.heading {
-  display: block;
-  text-align: center;
+:root {
+  --primary: #f2c94c;
+  --black: #333333;
+  --width-break: 600px;
 }
-#txt-input {
-  width: 90%;
-  height: 10vh;
+.navigation {
+  background-color: var(--primary);
+  color: #333333;
+  text-align: center;
   display: block;
-  margin: 1rem;
-  padding: 1rem;
+}
+body {
+  margin: 0;
+  font-family: "Kalam", cursive;
+  color: #333333;
 }
 
-#btn-translate {
-  background-color: aqua;
+textarea {
+  box-sizing: border-box;
   display: block;
-  margin-left: 12rem;
+  width: 90%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  margin-left: 2rem;
+}
+button {
+  border: none;
+  margin: 1rem;
+  background-color: var(--primary);
+  display: block;
+  padding: 1rem 2rem;
+  margin: auto;
+  margin-top: 1;
   box-sizing: content-box;
   cursor: pointer;
+  font-family: "Kalam", cursive;
+  font-size: large;
 }
-
+div {
+  display: block;
+}
 #output {
   border: 1px solid black;
   height: 10vh;
   width: 80%;
   margin: 1rem;
   padding: 1rem;
+}
+
+footer {
+  background-color: var(--primary);
+  color: #333333;
+  text-align: center;
+  margin: auto;
 }
